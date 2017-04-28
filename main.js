@@ -8,13 +8,14 @@ $(document).ready(function () {
 		button.toggleClass("selected");
 
 		if (filter === "all") {
-			$(".selected").removeClass("active");
+			$(".filter.selected").removeClass("selected");
 			$(".show").addClass("active");
-
+			$(".filter.everything").addClass("selected");
 			// $(".show.active").removeClass("active");
 
 		} else {
 			$(".show.active").removeClass("active");
+			$(".filter.everything").removeClass("selected");
 			// $("." + filter).addClass("active");
 
 			$(".filter.selected").each(function () {
