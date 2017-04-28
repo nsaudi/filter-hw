@@ -52,9 +52,14 @@ table {
     border-spacing: 0;
 }
 
-h1 {
+h2 {
     font-size: 1.3em;
     margin: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
 }
 
 
@@ -73,6 +78,7 @@ button {
     border-radius: 10px;
     font-size: 1.2em;
     margin: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 button.everything {

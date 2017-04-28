@@ -14,7 +14,7 @@ $(document).ready(function () {
 			// $(".show.active").removeClass("active");
 
 		} else {
-			$(".show.active").addClass("active");
+			$(".show.active").removeClass("active");
 			// $("." + filter).addClass("active");
 
 			$(".filter.selected").each(function () {
